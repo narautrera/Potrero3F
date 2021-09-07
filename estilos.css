@@ -1,0 +1,9 @@
+body {background-color: #F57C00;}
+
+#titulo {color:#00695C; font-size:400%; font-family:verdana; text-align:center; background-color: gray}
+
+.subtitulos {color:#117A65; font-family:verdana; text-align:center; font-size: xx-large}
+.titulosnuevo {font-family: verdana; font-style: italic; background-color: #00695C; font-size: xx-large; text-align: center;}
+.fondolista {background-color: lightgray;}
+.cursiva {font-style: oblique; font-size: large;}
+.letragrande {font-size: 200%; font-family: sans-serif;}
