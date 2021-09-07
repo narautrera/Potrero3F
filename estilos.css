@@ -1,9 +1,9 @@
 body {background-color: #F57C00;}
 
-#titulo {color:#00695C; font-size:400%; font-family:verdana; text-align:center; background-color: gray}
+#titulo {color:#00695C; font-size:400%; font-family:verdana; text-align:center; background-color: gray; text-decoration: underline;}
 
-.subtitulos {color:#117A65; font-family:verdana; text-align:center; font-size: xx-large}
-.titulosnuevo {font-family: verdana; font-style: italic; background-color: #00695C; font-size: xx-large; text-align: center;}
+.subtitulos {color:#117A65; font-family:verdana; text-align:center; text-decoration: overline; font-size: xx-large}
+.titulosnuevo {font-family: verdana; font-style: italic; background-color: #00695C; font-size: xx-large; text-align: left;}
 .fondolista {background-color: lightgray;}
-.cursiva {font-style: oblique; font-size: large;}
+.cursiva {font-style: oblique; font-size: large; text-align: justify;}
 .letragrande {font-size: 200%; font-family: sans-serif;}
