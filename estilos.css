@@ -1,4 +1,4 @@
-body {background-color: #FDEBD0; background-image: url(Imágenes/fondo.jpg);}
+body {background-color: #FDEBD0; background-image: url(Imágenes/fondo.jpg); opacity: 90%;}
 
 #titulo {color:#00695C; font-size:400%; font-family:verdana; text-align:center; text-decoration: underline;}
 
@@ -14,7 +14,7 @@ body {background-color: #FDEBD0; background-image: url(Imágenes/fondo.jpg);}
 .letraverde {color: #1ABC9C; text-align: center;}
 
 .justificado {text-align: justify;}
-
+.fotocentro{display: block; margin: auto;}
 .icono {position: fixed;
 top: 20%; right: 1%;}
 
