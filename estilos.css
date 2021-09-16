@@ -1,9 +1,30 @@
-body {background-color: #F57C00;}
+body {background-color: #FDEBD0; background-image: url(Imágenes/fondo.jpg);}
 
-#titulo {color:#00695C; font-size:400%; font-family:verdana; text-align:center; background-color: gray; text-decoration: underline;}
+#titulo {color:#00695C; font-size:400%; font-family:verdana; text-align:center; text-decoration: underline;}
 
-.subtitulos {color:#117A65; font-family:verdana; text-align:center; text-decoration: overline; font-size: xx-large}
+.subtitulos {color:#117A65; font-family:verdana; text-align:center; text-decoration: overline; font-size: xx-large;}
 .titulosnuevo {font-family: verdana; font-style: italic; background-color: #00695C; font-size: xx-large; text-align: left;}
-.fondolista {background-color: lightgray;}
-.cursiva {font-style: oblique; font-size: large; text-align: justify;}
+.fondo {background-color: #FDEBD0;}
+.cursiva {font-style: oblique; font-size: large; text-align: justify; }
 .letragrande {font-size: 200%; font-family: sans-serif;}
+.subtitulos2 {color:#117A65; font-family:verdana; text-align:center; text-decoration: overline; font-size: x-large ;}
+.centrado {padding: 5%;}
+.left {text-align: left;}
+.letrablanca {color: white}
+.letraverde {color: #1ABC9C; text-align: center;}
+
+.justificado {text-align: justify;}
+
+.icono {position: fixed;
+top: 20%; right: 1%;}
+
+header {background: #FDEBD0; margin: 1%; padding: 0.5%; border: 5px dotted #1ABC9C;}
+nav {background: #1ABC9C; text-align: justify; padding: 0.5%; margin: 1%;}
+section {background: #FDEBD0; float: left; width: 69%; height: 470px; margin: 1%; overflow: auto;
+          padding: 5px;
+        border: 5px solid #117A65; box-sizing: border-box;}
+aside {background: #FDEBD0; float: left; width: 27%; height: 470px; margin: 1%; overflow: auto;
+      padding: 10px; border: 5px solid #117A65; box-sizing: border-box;}
+
+footer {background: #FDEBD0; clear: both; text-align: left; padding: 2%;
+   border: 5px solid #117A65; box-sizing: border-box;}
