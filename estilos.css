@@ -18,6 +18,7 @@ body {background-color: #FDEBD0; background-image: url(Imágenes/fondo.jpg); opa
 .icono {position: fixed;
 top: 20%; right: 1%;}
 
+
 header {background: #FDEBD0; margin: 1%; padding: 0.5%; border: 5px dotted #1ABC9C;}
 nav {background: #1ABC9C; text-align: justify; padding: 0.5%; margin: 1%;}
 section {background: #FDEBD0; float: left; width: 69%; height: 470px; margin: 1%; overflow: auto;
