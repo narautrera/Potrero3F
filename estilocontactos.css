@@ -1,36 +1,46 @@
 body {background-color: #FDEBD0; background-image: url(Imágenes/fondo.jpg); opacity: 90%;}
 
-.cursiva {font-style: oblique; font-size: x-large; text-align: justify; }
-.letragrande {font-size: 100%; font-family: sans-serif;}
-.letraverde {color: #1ABC9C; text-align: center;}
-.justificado {text-align: justify;}
-.fotocentro{display: block; margin: auto;}
+.cursiva {font-style: oblique; font-family: sencilla; font-size: 1.3rem; text-align: justify; font-weight: bolder;}
+.letragrande {font-size: 1.2rem; font-family: sans-serif;}
+.letraverde {color: #1ABC9C; text-align: center;font-size: 2rem}
+.justificado {text-align: justify; font-family: 'Kalam', cursive;}
+.fotocentro{display: block; margin: auto; width: 40%;}
 .icono {position: fixed;
-top: 20%; right: 1%;}
+top: 10vw; right: 1vw;}
 .fondo {background-color: #FDEBD0;}
-.subtitulos {color:#117A65; font-family:verdana; text-align:center; text-decoration: overline; font-size: xx-large;}
+.subtitulos {color:#117A65; font-family:sencilla; text-align:center; text-decoration: overline; font-size: 2.5rem;}
 
-.subtitulos2 {color:#117A65; font-family:verdana; text-align:center; text-decoration: overline; font-size: x-large ;}
-.negrita {font-weight: bolder; font-size: large; font-style: oblique;}
-.fotocentro2{display: block; margin: auto;}
-
-
-header {background: #FDEBD0; margin: 1%; padding: 0.5%; border: 5px dotted #1ABC9C;}
+.subtitulos2 {color:#117A65; font-family: 'Kalam', cursive; text-align:center; text-decoration: overline; font-size: 2rem ;}
+.negrita {font-weight: bolder; font-size: 1.2rem; font-style: oblique; font-family: 'Kalam', cursive;}
+.fotocentro2{display: block; margin: auto; width: 98%;}
 
 
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
-section {background: #FDEBD0; float: left; width: 69%; height: 470px; margin: 1%; overflow: auto;
-             padding: 5px;
-           border: 5px solid #117A65; box-sizing: border-box; }
-aside {background: #FDEBD0; float: left; width: 27%; height: 470px; margin: 1%; overflow: auto;
-         padding: 10px; border: 5px solid #117A65; box-sizing: border-box;}
 
-footer {background: #FDEBD0; clear: both; text-align: left; padding: 2%;
-            border: 5px solid #117A65; box-sizing: border-box;}
+@font-face {
+  font-family: "sencilla";
+  src: url("fuentes/BadScript-Regular.ttf");
+}
+
+
+
+
+header {background: #FDEBD0; margin: 1%; padding: 0.2vw; border: 0.5vw dotted #1ABC9C;}
+
+
+section {background: #FDEBD0; float: left; width: 69%; height: 70vh; margin: 1%; overflow: auto;
+             padding: 1vw;
+           border: 0.5vw solid #117A65; box-sizing: border-box; }
+aside {background: #FDEBD0; float: left; width: 27%; height: 70vh; margin: 1%; overflow: auto;
+         padding: 1vw; border: 0.5vw solid #117A65; box-sizing: border-box;}
+
+footer {background: #FDEBD0; clear: both; text-align: left; padding: 1vw;
+            border: 0.5vw solid #117A65; box-sizing: border-box; margin: 1%;}
 
 a:visited {color: #17A589;}
 a:link {color: #6E2C00;}
-li:hover {background-color: #117A65; font-size: 200%; font-family: serif;}
+li:hover {background-color: #117A65; font-size: 2.2rem; font-family: serif; font-family: 'Kalam', cursive;}
 .opacidad:hover {opacity: 40%; }
 
 
