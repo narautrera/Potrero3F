@@ -9,7 +9,7 @@ body {background-color: #FDEBD0; background-image: url(Imágenes/fondo.jpg); opa
 .letragrande {font-size: 2rem; font-family: sans-serif;}
 .subtitulos2 {color:#117A65; font-family: 'Kalam', cursive; text-align:center; text-decoration: overline; font-size: 2rem ;}
 .centrado {padding: 5vw;}
-.left {text-align: left; font-size: 1.2rem;}
+.left {text-align: left; font-size: 1rem;}
 
 .letrablanca {color: white}
 .letraverde {color: #1ABC9C; text-align: center; font-size: 2rem; font-family: 'Kalam', cursive;}
