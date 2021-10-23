@@ -1,63 +1,133 @@
-body {background-color: #FDEBD0; background-image: url(Imágenes/fondo.jpg); opacity: 90%;}
+body {background-color: #FDEBD0; 
+  background-image: url(Imágenes/fondo.jpg);
+  opacity: 90%;}
 
-.cursiva {font-style: oblique; font-family: sencilla; font-size: 1.3rem; text-align: justify; font-weight: bolder;}
-.letragrande {font-size: 1.2rem; font-family: sans-serif;}
-.letraverde {color: #1ABC9C; text-align: center;font-size: 2rem}
-.justificado {text-align: justify; font-family: 'Kalam', cursive;}
-.fotocentro{display: block; margin: auto; width: 40%;}
+.cursiva {font-style: oblique;
+  font-family: sencilla;
+  font-size: 1.3rem;
+  text-align: justify;
+  font-weight: bolder;}
+
+.letragrande {font-size: 1.2rem;
+  font-family: sans-serif;}
+
+.letraverde {color: #1ABC9C;
+  text-align: center;
+  font-size: 2rem}
+
+.justificado {text-align: justify;
+  font-family: 'Kalam', cursive;}
+
+.fotocentro{display: block;
+  margin: auto;
+  width: 40%;}
+
 .icono {position: fixed;
-top: 10vw; right: 1vw;}
+  top: 10vw;
+  right: 1vw;}
+
 .fondo {background-color: #FDEBD0;}
-.subtitulos {color:#117A65; font-family:sencilla; text-align:center; text-decoration: overline; font-size: 2.5rem;}
 
-.subtitulos2 {color:#117A65; font-family: 'Kalam', cursive; text-align:center; text-decoration: overline; font-size: 2rem ;}
-.negrita {font-weight: bolder; font-size: 1.2rem; font-style: oblique; font-family: 'Kalam', cursive;}
-.fotocentro2{display: block; margin: auto; width: 98%;}
+.subtitulos {color:#117A65;
+  font-family:sencilla;
+  text-align:center;
+  text-decoration: overline;
+  font-size: 2.5rem;}
 
+.subtitulos2 {color:#117A65;
+  font-family: 'Kalam', cursive;
+  text-align:center;
+  text-decoration: overline;
+  font-size: 2rem ;}
+
+.negrita {font-weight: bolder;
+  font-size: 1.2rem;
+  font-style: oblique;
+  font-family: 'Kalam', cursive;}
+
+.fotocentro2{display: block;
+  margin: auto;
+  width: 30%;}
+
+.foot {width: 40%; display: flex;
+flex-direction: row;
+justify-content: space-around;}
 
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
-
 
 @font-face {
   font-family: "sencilla";
   src: url("fuentes/BadScript-Regular.ttf");
 }
 
+header {background: #FDEBD0;
+  margin: 1%;
+  padding: 0.2vw;
+  border: 0.5vw dotted #1ABC9C;}
 
+section {background: #FDEBD0;
+  float: left;
+  width: 69%;
+  height: 70vh;
+  margin: 1%;
+  overflow: auto;
+  padding: 1vw;
+  border: 0.5vw solid #117A65;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;}
 
+aside {background: #FDEBD0;
+  float: left;
+  width: 27%;
+  height: 70vh;
+  margin: 1%;
+  overflow: auto;
+  padding: 1vw;
+  border: 0.5vw solid #117A65;
+  box-sizing: border-box;}
 
-header {background: #FDEBD0; margin: 1%; padding: 0.2vw; border: 0.5vw dotted #1ABC9C;}
-
-
-section {background: #FDEBD0; float: left; width: 69%; height: 70vh; margin: 1%; overflow: auto;
-             padding: 1vw;
-           border: 0.5vw solid #117A65; box-sizing: border-box; }
-aside {background: #FDEBD0; float: left; width: 27%; height: 70vh; margin: 1%; overflow: auto;
-         padding: 1vw; border: 0.5vw solid #117A65; box-sizing: border-box;}
-
-footer {background: #FDEBD0; clear: both; text-align: left; padding: 1vw;
-            border: 0.5vw solid #117A65; box-sizing: border-box; margin: 1%;}
+footer {background: #FDEBD0;
+  clear: both;
+  text-align: left;
+  padding: 1vw;
+  border: 0.5vw solid #117A65;
+  box-sizing: border-box;
+  margin: 1%;}
 
 a:visited {color: #17A589;}
+
 a:link {color: #6E2C00;}
-li:hover {background-color: #117A65; font-size: 2.2rem; font-family: serif; font-family: 'Kalam', cursive;}
+
+li:hover {background-color: #117A65;
+  font-size: 2.2rem;
+  font-family: serif;
+  font-family: 'Kalam', cursive;}
+
 .opacidad:hover {opacity: 40%; }
-
-
 
  input {background-color: #73C6B6;
  transition: background ease-in .6s;}
 input:hover {background: #FDEBD0;}
 
-
 .boton{background-color: #73C6B6;
 transition: background ease-in .4s;}
 .boton:hover {background: black; color: #FDEBD0;}
 
+.cursiva:hover{color: #FDEBD0;
+  background-color: #17A589;}
 
-
-
-.cursiva:hover{color: #FDEBD0; background-color: #17A589;}
 .fotocentro:hover {width: 80%;}
 
 section::after {content: "Ph: Runa Producciones";}
+
+nav {background-color: white; margin: 1%;}
+
+@media (max-width: 767px) {
+  nav { display: none;}
+}
+
+@media (max-width: 767px) {
+.fotocentro {display: none;}
+}
