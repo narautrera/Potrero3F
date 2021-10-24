@@ -164,3 +164,10 @@ justify-content: space-around;}
    iframe {width: 50%;
      float: left;
      height: 40vh;}
+
+.caja {background-color: #D1F2EB;
+  font-family: sencilla;}
+.row {border: dotted black;}
+.linea {text-decoration: underline; color: black;}
+.col-md-4 {border: solid gray;}
+.col-lg-4 {border: solid gray;}
