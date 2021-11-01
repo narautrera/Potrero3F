@@ -2,7 +2,7 @@ body {background-color: #FDEBD0;
   background-image: url(Imágenes/fondo.jpg);
   opacity: 90%;}
 
-#titulo {color:#00695C;
+.titulo {color:#00695C;
   font-size:4rem;
   font-family:sencilla;
   text-align:center;
@@ -171,3 +171,8 @@ justify-content: space-around;}
 .linea {text-decoration: underline; color: black;}
 .col-md-4 {border: solid gray;}
 .col-lg-4 {border: solid gray;}
+
+.boton {background-color: black;
+color: white;
+border: solid white;
+}

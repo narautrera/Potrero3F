@@ -9,16 +9,25 @@
   <meta name="autor" content="Las Rayenes">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title >Las Rayenes Bakery</title>
+
+  <script>
+  alert ("¿Estás dispuesto a ver el mejor sitio del mundo mundial?")
+  </script>
+
 </head>
 
 <body>
-  <header>
-    <h1 id="titulo">~Las Rayenes Bakery~</h1>
+  <header id="fondito1">
+    <h1 class="titulo">~Las Rayenes Bakery~</h1>
 
     <h3 class="subtitulos">Pastelería de autor, recetas y algo más...</h3>
+
+    <button onclick="modo()" class="boton"> Activar vista confortable
+    </button>
+
   </header>
   <br>
-  <nav>
+  <nav id="fondito2">
     <div class="flexito">
 
       <div class="cursiva">
@@ -89,7 +98,7 @@
 
 
   <br>
-  <section>
+  <section id="fondito3">
     <div class="justificado">
 
       <p>En este sitio vas a encontrar recetas de todo tipo para que puedas inundar de aromas tu cocina.
@@ -111,7 +120,7 @@
     </div>   </div>
   </section>
 
-  <aside>
+  <aside id="fondito4">
     <h4 class="subtitulos2"> Nuestros cursos </h4>
 
     <div class="container">
@@ -178,7 +187,7 @@
   </aside>
 
 
-  <footer>
+  <footer id="fondito5">
     <h2 class="subtitulos2">Nuestras redes sociales y contacto</h2>
     <br>
     <div class="foot">
@@ -207,8 +216,17 @@
     <div class="icono">
       <a class="opacidad" href="https://wa.me/5491122334455" target="_blank">  <img src="Imágenes/whatsapp.png" alt="" width="100" height="100"> </a>
     </div>
+    <br>
+    <br>
+    <button onclick="datos()" class="boton"> Datos del Sitio
+    </button>
 
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <script
+    src="js/script.js" >
+  </script>
+
 </body>
 </html>
